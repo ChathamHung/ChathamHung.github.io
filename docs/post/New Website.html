@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     
-    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
+    <link rel="icon" href="https://github.com/user-attachments/assets/9c1c11bc-4ddd-4890-8a92-a077e7408c6d"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
@@ -19,7 +19,7 @@ If you want go back to old website just click [here](https://chathamhung.github.
 If you want go back to old website just click [here](https://chathamhung.github.io/ChathamHung0226.github.io/) to go back.。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://ChathamHung.github.io/post/New%20Website.html">
-<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
+<meta property="og:image" content="https://github.com/user-attachments/assets/9c1c11bc-4ddd-4890-8a92-a077e7408c6d">
 <title>New Website</title>
 
 
@@ -136,7 +136,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
