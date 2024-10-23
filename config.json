@@ -1,6 +1,11 @@
 {
     "title":"ChathamHung's Website",
     "subTitle":"ChathamHung's Website is here",
-    "avatarUrl":"https://github.com/user-attachments/assets/9c1c11bc-4ddd-4890-8a92-a077e7408c6d",
-    "GMEEK_VERSION":"last"
+    "avatarUrl":"Images/icon.png",
+    "GMEEK_VERSION":"last",
+
+    "i18n":"EN",
+    "themeMode":"fix",
+    "dayTheme":"dark",
+    "nightTheme":"dark-blue"
 }
